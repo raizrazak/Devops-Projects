@@ -157,3 +157,20 @@ ssh -i <private-key-name>.pem ubuntu@<Public-IP-address>
  
  Congratulations! You have just created your very first Linux Server in the Cloud and our set up looks like this now:
   (You are the client)
+
+
+
+![projject1-step0](https://user-images.githubusercontent.com/85270361/210112007-5cd14a18-8aaa-4c7a-857e-b18400535bdd.PNG)
+
+
+Please read information about AWS free tier limits and make sure that you STOP your EC2 instance when you are not using it.
+
+Stop EC2
+
+All we need to know right now is that we can use 750 hours (31.25 days) of t2.micro server per month for the first 12 months FOR FREE.
+
+You can launch and stop new instances when you need to, but by default there is a soft-limit of maximum 5 running instances at the same time. In our first projects we will be using only 1 running instance at a time. When you stop an instance – it stops consuming available hours.
+
+Note that every time you stop and start your EC2 instance – you will have a new IP address, it is normal behavior, so do not forget to update your SSH credentials when you try to connect to your EC2 server.
+
+Let us move on and configure our EC2 machine to serve a Web server!
