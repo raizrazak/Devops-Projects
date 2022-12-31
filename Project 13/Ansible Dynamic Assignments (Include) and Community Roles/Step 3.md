@@ -63,3 +63,9 @@ To test this, you can update inventory for each environment and run Ansible agai
 
 Congratulations!
 You have learned and practiced how to use Ansible configuration management tool to prepare UAT environment for Tooling web solution.
+
+
+Next project
+Next project is a capstone project for this part of your Project Based Learning journey – it will require all previously gained knowledge and skills, and introduce more new and exciting concepts and DevOps tools!
+
+Get ready for new challenges ahead! Full Speed Forward!
