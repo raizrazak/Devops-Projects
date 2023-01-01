@@ -1,6 +1,6 @@
-CONFIGURE APPLICATION LOAD BALANCER (ALB)
+# CONFIGURE APPLICATION LOAD BALANCER (ALB)
 
-Application Load Balancer To Route Traffic To NGINX
+## Application Load Balancer To Route Traffic To NGINX
 Nginx EC2 Instances will have configurations that accepts incoming traffic only from Load Balancers. No request should go directly
 to Nginx servers. With this kind of setup, we will benefit from intelligent routing of requests from the ALB to Nginx servers 
 across the 2 Availability Zones. We will also be able to offload SSL/TLS certificates on the ALB instead of Nginx. Therefore, 
@@ -15,7 +15,7 @@ Nginx will be able to perform faster since it will not require extra compute res
 6. Select Nginx Instances as the target group
 
 
-Application Load Balancer To Route Traffic To Web Servers
+## Application Load Balancer To Route Traffic To Web Servers
 Since the webservers are configured for auto-scaling, there is going to be a problem if servers get dynamically scalled out or in. 
 Nginx will not know about the new IP addresses, or the ones that get removed. Hence, Nginx will not know where to direct the traffic.
 
