@@ -58,7 +58,7 @@ cat > ca-csr.json <<EOF
       "C": "UK",
       "L": "England",
       "O": "Kubernetes",
-      "OU": "DAREY.IO DEVOPS",
+      "OU": "TOTAL.COM",
       "ST": "London"
     }
   ]
@@ -171,7 +171,7 @@ cat > master-kubernetes-csr.json <<EOF
       "C": "UK",
       "L": "England",
       "O": "Kubernetes",
-      "OU": "DAREY.IO DEVOPS",
+      "OU": "TOTAL.COM",
       "ST": "London"
     }
   ]
@@ -212,7 +212,7 @@ cat > kube-scheduler-csr.json <<EOF
       "C": "UK",
       "L": "England",
       "O": "system:kube-scheduler",
-      "OU": "DAREY.IO DEVOPS",
+      "OU": "TOTAL.COM",
       "ST": "London"
     }
   ]
@@ -250,7 +250,7 @@ cat > kube-proxy-csr.json <<EOF
       "C": "UK",
       "L": "England",
       "O": "system:node-proxier",
-      "OU": "DAREY.IO DEVOPS",
+      "OU": "TOTAL.COM",
       "ST": "London"
     }
   ]
@@ -285,7 +285,7 @@ cat > kube-controller-manager-csr.json <<EOF
       "C": "UK",
       "L": "England",
       "O": "system:kube-controller-manager",
-      "OU": "DAREY.IO DEVOPS",
+      "OU": "TOTAL.COM",
       "ST": "London"
     }
   ]
@@ -333,7 +333,7 @@ for i in 0 1 2; do
       "C": "UK",
       "L": "England",
       "O": "system:nodes",
-      "OU": "DAREY.IO DEVOPS",
+      "OU": "TOTAL.COM",
       "ST": "London"
     }
   ]
@@ -376,7 +376,7 @@ cat > admin-csr.json <<EOF
       "C": "UK",
       "L": "England",
       "O": "system:masters",
-      "OU": "DAREY.IO DEVOPS",
+      "OU": "TOTAL.COM",
       "ST": "London"
     }
   ]
@@ -416,7 +416,7 @@ cat > service-account-csr.json <<EOF
       "C": "UK",
       "L": "England",
       "O": "Kubernetes",
-      "OU": "DAREY.IO DEVOPS",
+      "OU": "TOTAL.COM",
       "ST": "London"
     }
   ]
