@@ -1,3 +1,3 @@
 # DevOps-Projects
 
-# Thanks for The STAR
+# Thanks for The STAR ⭐
