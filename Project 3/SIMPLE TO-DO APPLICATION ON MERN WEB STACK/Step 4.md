@@ -117,7 +117,7 @@ Start your server using the command:
 node index.js
 ```
   
-  
+ 
 You shall see a message ‘Database connected successfully’, if so – we have our backend configured. Now we are going to test it.
 
 Testing Backend Code without Frontend using RESTful API
