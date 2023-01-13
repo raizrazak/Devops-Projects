@@ -48,7 +48,7 @@ Side Self Study
 - Read about ‘chmod’ and ‘chown’ commands in Linux and understand how access and ownership of files and directories work.
 - Learn what TCP and UPD terms mean and how they are different. List down ports most commonly used in Web (http, https, ssh, telnet,
  ftp, sftp, telnet)
-- Get yourself familiar with basic text editing in Vi (Vim) editor.
+- Get yourself familiar with basic text editing in [Vi (Vim)](https://www.vim.org/) editor.[Practice Here](https://www.openvim.com/)
 
 - Instructions On How To Submit Your Work For Review And Feedback
 To submit your work for review and feedback – follow this instruction.
@@ -56,13 +56,11 @@ To submit your work for review and feedback – follow this instruction.
 As a beginner it would be nice that you also set up your workspace for learning, you can take a look at these video series to learn
 how to do that.
 
-windows-installation:Part1
-windows-installation:Part2
 
 # Step 0 – Preparing prerequisites
 In order to complete this project you will need an AWS account and a virtual server with Ubuntu Server OS.
 
-AWS is the biggest Cloud Service Provider and it offers a free tier account that we are going to leverage for our projects.
+[AWS](https://aws.amazon.com/) is the biggest Cloud Service Provider and it offers a free tier account that we are going to leverage for our projects.
 
 Do not focus too much on AWS itself right now, there will be a proper Cloud introduction and configuration projects later in our course.
 
