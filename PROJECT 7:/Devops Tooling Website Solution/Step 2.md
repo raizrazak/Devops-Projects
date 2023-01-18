@@ -52,7 +52,7 @@ add following line
 <NFS-Server-Private-IP-Address>:/mnt/apps /var/www nfs defaults 0 0
 ```
 
-5. Install Remi’s repository, Apache and PHP
+5. Install [Remi’s repository](http://www.servermom.org/how-to-enable-remi-repo-on-centos-7-6-and-5/2790/), Apache and PHP
 
 ```
 sudo yum install httpd -y
@@ -84,7 +84,7 @@ check if the same file is accessible from other Web Servers.
 7. Locate the log folder for Apache on the Web Server and mount it to NFS server’s export for logs. Repeat step №4 to make sure
  the mount point will persist after reboot.
 
-8. Fork the tooling source code from Darey.io Github Account to your Github account. (Learn how to fork a repo here)
+8. Fork the tooling source code from [Darey.io Github Account](https://github.com/darey-io/tooling) to your Github account. (Learn how to fork a repo [here](https://youtu.be/f5grYMXbAV0))
 
 9. Deploy the tooling website’s code to the Webserver. Ensure that the html folder from the repository is deployed to /var/www/html
 
