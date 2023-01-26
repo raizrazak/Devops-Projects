@@ -28,15 +28,14 @@ Three-tier Architecture is a client-server software architecture pattern that co
 
 1. Presentation Layer (PL): This is the user interface such as the client server or browser on your laptop.
 2. Business Layer (BL): This is the backend program that implements business logic. Application or Webserver
-3. Data Access or Management Layer (DAL): This is the layer for computer data storage and data access. Database Server or File 
-System Server such as FTP server, or NFS Server
+3. Data Access or Management Layer (DAL): This is the layer for computer data storage and data access. [Database](https://www.computerhope.com/jargon/d/database-server.htm) Server or File System Server such as [FTP](https://titanftp.com/2022/07/05/what-is-an-ftp-server/) server, or [NFS](https://www.techtarget.com/searchenterprisedesktop/definition/Network-File-System) Server
 
 
 In this project, you will have the hands-on experience that showcases Three-tier Architecture while also ensuring that the disks
 used to store files on the Linux servers are adequately partitioned and managed through programs such as gdisk and LVM respectively.
 
 You will be working working with several storage and disk management concepts, to have a better understanding, watch following video:
-Disk management in Linux
+[Disk management in Linux](https://youtu.be/dHbeFhb7mmY)
 
 Note: We are gradually introducing new AWS elements into our solutions, but do not be worried if you do not fully understand AWS 
 Cloud Services yet, there are Cloud focused projects ahead where we will get into deep details of various Cloud concepts and 
